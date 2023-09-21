@@ -1,0 +1,13 @@
+D:\C#.Net\Pruebas\HotelWeb.Api.Services\bin\Debug\net6.0\HotelWeb.Api.Services.deps.json
+D:\C#.Net\Pruebas\HotelWeb.Api.Services\bin\Debug\net6.0\HotelWeb.Api.Services.dll
+D:\C#.Net\Pruebas\HotelWeb.Api.Services\bin\Debug\net6.0\HotelWeb.Api.Services.pdb
+D:\C#.Net\Pruebas\HotelWeb.Api.Services\obj\Debug\net6.0\HotelWeb.Api.Services.csproj.AssemblyReference.cache
+D:\C#.Net\Pruebas\HotelWeb.Api.Services\obj\Debug\net6.0\HotelWeb.Api.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#.Net\Pruebas\HotelWeb.Api.Services\obj\Debug\net6.0\HotelWeb.Api.Services.AssemblyInfoInputs.cache
+D:\C#.Net\Pruebas\HotelWeb.Api.Services\obj\Debug\net6.0\HotelWeb.Api.Services.AssemblyInfo.cs
+D:\C#.Net\Pruebas\HotelWeb.Api.Services\obj\Debug\net6.0\HotelWeb.Api.Services.csproj.CoreCompileInputs.cache
+D:\C#.Net\Pruebas\HotelWeb.Api.Services\obj\Debug\net6.0\HotelWeb.Api.Services.dll
+D:\C#.Net\Pruebas\HotelWeb.Api.Services\obj\Debug\net6.0\refint\HotelWeb.Api.Services.dll
+D:\C#.Net\Pruebas\HotelWeb.Api.Services\obj\Debug\net6.0\HotelWeb.Api.Services.pdb
+D:\C#.Net\Pruebas\HotelWeb.Api.Services\obj\Debug\net6.0\ref\HotelWeb.Api.Services.dll
+D:\C#.Net\Pruebas\HotelWeb.Api.Services\obj\Debug\net6.0\HotelWeb.Api.Services.sourcelink.json

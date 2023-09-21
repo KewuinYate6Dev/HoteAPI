@@ -1,0 +1,112 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>HotelWeb.Api.Web</name>
+    </assembly>
+    <members>
+        <member name="T:HotelWeb.Api.Web.Controllers.HabitacionController">
+            <summary>
+            Controller que gestiona todas la logica de negocio de las habitaciones
+            </summary>
+        </member>
+        <member name="M:HotelWeb.Api.Web.Controllers.HabitacionController.#ctor(HotelWeb.Api.Repository.Interfaces.IHabitacionRepository)">
+            <summary>
+            Controller que gestiona todas la logica de negocio de las habitaciones
+            </summary>
+            <param name="habitacionRepository"></param>
+        </member>
+        <member name="M:HotelWeb.Api.Web.Controllers.HabitacionController.Agregar(HotelWeb.Api.Models.Habitacion)">
+            <summary>
+            Agrega una nueva habitacion a la DB
+            Campos NO obligatorios: Id, Impuestos(se calcula valor CostoBase * 0.19), Habilitado
+            </summary>
+            <param name="habitacion"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HotelWeb.Api.Web.Controllers.HabitacionController.Actualizar(HotelWeb.Api.Models.Habitacion)">
+            <summary>
+            Actualiza una habitacion en la DB
+            Campos no obligatorios Habilitado
+            </summary>
+            <param name="habitacion"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HotelWeb.Api.Web.Controllers.HabitacionController.ActualizarEstado(System.Int32)">
+            <summary>
+            Habilita o desabilita una habitacion
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HotelWeb.Api.Web.Controllers.HabitacionController.HabitacionAvailableByHotel(System.String,System.Int32,System.DateTime,System.DateTime)">
+            <summary>
+            Busca las habitaciones disponibles por ciudad, por cantidad de personas, dia de llegada y salida
+            la ciudad no debe ser escrita completamente puedes ir buscando Med, mede, medellin
+            </summary>
+            <param name="ciudad"></param>
+            <param name="cantidadPersonas"></param>
+            <param name="llegada"></param>
+            <param name="salida"></param>
+            <returns></returns>
+        </member>
+        <member name="T:HotelWeb.Api.Web.Controllers.HotelController">
+            <summary>
+            Controller que gestiona todas la logica de negocio de los hoteles
+            </summary>
+        </member>
+        <member name="M:HotelWeb.Api.Web.Controllers.HotelController.Insert(HotelWeb.Api.Models.Hotel)">
+            <summary>
+            Se agrega una habitacion a la DB
+            Campos NO obligatorios: Id, Habilitado
+            </summary>
+            <param name="hotel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HotelWeb.Api.Web.Controllers.HotelController.Actualizar(HotelWeb.Api.Models.Hotel)">
+            <summary>
+            Se actualiza un hotel en la DB
+            Campos NO obligatorios: Habilitado
+            </summary>
+            <param name="hotel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HotelWeb.Api.Web.Controllers.HotelController.ActualizarEstado(System.Int32)">
+            <summary>
+            Se habilita o desabilita un hotel
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:HotelWeb.Api.Web.Controllers.ReservaController">
+            <summary>
+            Controller que gestiona todas la logica de negocio de las reservas
+            </summary>
+        </member>
+        <member name="M:HotelWeb.Api.Web.Controllers.ReservaController.Reserva(HotelWeb.Api.Models.Reserva,HotelWeb.Api.Services.Interfaces.IEmailService,HotelWeb.Api.Repository.Interfaces.IUsuarioRepository)">
+            <summary>
+            Registra un reserva en la DB
+            campos NO obligatorios: Noches(se calcula automaticamente, 
+            Total(Se calcula automaticamente CostoBase + Impuestos * Noches), Estado)
+            Huspedes.Id, ContactoEmergencia.Id
+            </summary>
+            <param name="reserva"></param>
+            <param name="_emailService"></param>
+            <param name="_usuarioRepository"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HotelWeb.Api.Web.Controllers.ReservaController.ReservaByHotel(System.Int32)">
+            <summary>
+            Consultar las reservas por hotel 
+            </summary>
+            <param name="idHotel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HotelWeb.Api.Web.Controllers.ReservaController.ReservaById(System.Int32)">
+            <summary>
+            Consultar las reservas por id
+            </summary>
+            <param name="idReserva"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

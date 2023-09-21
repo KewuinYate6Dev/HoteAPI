@@ -1,0 +1,17 @@
+D:\C#.Net\Pruebas\Hotel.Api.Repository\obj\Debug\net6.0\HotelWeb.Api.Repository.csproj.AssemblyReference.cache
+D:\C#.Net\Pruebas\Hotel.Api.Repository\obj\Debug\net6.0\HotelWeb.Api.Repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#.Net\Pruebas\Hotel.Api.Repository\obj\Debug\net6.0\HotelWeb.Api.Repository.AssemblyInfoInputs.cache
+D:\C#.Net\Pruebas\Hotel.Api.Repository\obj\Debug\net6.0\HotelWeb.Api.Repository.AssemblyInfo.cs
+D:\C#.Net\Pruebas\Hotel.Api.Repository\obj\Debug\net6.0\HotelWeb.Api.Repository.csproj.CoreCompileInputs.cache
+D:\C#.Net\Pruebas\Hotel.Api.Repository\bin\Debug\net6.0\HotelWeb.Api.Repository.deps.json
+D:\C#.Net\Pruebas\Hotel.Api.Repository\bin\Debug\net6.0\HotelWeb.Api.Repository.dll
+D:\C#.Net\Pruebas\Hotel.Api.Repository\bin\Debug\net6.0\HotelWeb.Api.Repository.pdb
+D:\C#.Net\Pruebas\Hotel.Api.Repository\bin\Debug\net6.0\ADO.dll
+D:\C#.Net\Pruebas\Hotel.Api.Repository\bin\Debug\net6.0\HotelWeb.Api.Models.dll
+D:\C#.Net\Pruebas\Hotel.Api.Repository\bin\Debug\net6.0\HotelWeb.Api.Models.pdb
+D:\C#.Net\Pruebas\Hotel.Api.Repository\obj\Debug\net6.0\HotelWeb.Api.Repository.csproj.CopyComplete
+D:\C#.Net\Pruebas\Hotel.Api.Repository\obj\Debug\net6.0\HotelWeb.Api.Repository.dll
+D:\C#.Net\Pruebas\Hotel.Api.Repository\obj\Debug\net6.0\refint\HotelWeb.Api.Repository.dll
+D:\C#.Net\Pruebas\Hotel.Api.Repository\obj\Debug\net6.0\HotelWeb.Api.Repository.pdb
+D:\C#.Net\Pruebas\Hotel.Api.Repository\obj\Debug\net6.0\ref\HotelWeb.Api.Repository.dll
+D:\C#.Net\Pruebas\Hotel.Api.Repository\obj\Debug\net6.0\HotelWeb.Api.Repository.sourcelink.json
